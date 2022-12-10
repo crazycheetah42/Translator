@@ -1,6 +1,5 @@
 """
 This is the Translator app, made by Aryaman Sriram.
-This software is free to use, without a license..
 Enjoy translating!
 """
 # These imports are for UI config
@@ -72,7 +71,7 @@ class Ui_MainWindow(object):
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
         self.label_4.setGeometry(QtCore.QRect(765, 30, 61, 51))
         self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("Resources/images/AryamanSoftware_Logo.png"))
+        self.label_4.setPixmap(QtGui.QPixmap("Resources/images/logo.png"))
         self.label_4.setScaledContents(True)
         self.label_4.setObjectName("label_4")
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
@@ -127,7 +126,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Translator"))
-        self.label.setText(_translate("MainWindow", "Aryaman Software"))
         self.label_2.setText(_translate("MainWindow", "Translator"))
         self.label_3.setText(_translate("MainWindow", "Enter the text to translate:"))
         self.label_5.setText(_translate("MainWindow", "Language to translate to:"))
